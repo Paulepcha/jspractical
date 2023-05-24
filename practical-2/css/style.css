@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top{
+    height: 100vh;
+    width: 100%;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.top h1{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive; 
+}
+.top p{
+    margin: 1px solid white ;
+ border: 1px solid white;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    color: white;
+}
+.buttons{
+height: 50px;
+width: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+
+}
+.buttons button{
+    font-size: 50px;
+    margin-bottom: 50pxs;
+
+}
+.add{
+    height: 100%;
+    width: 50%;
+    background-color: antiquewhite;
+    margin-right: 20px;
+}
+.save{
+    height: 100%;
+    width: 50%;
+    background-color: rebeccapurple;
+    margin-right: 20px;
+}
+.end{
+    height: 50px;
+    width: 100%;
+    color: black;
+}
+
+
+.game{
+    height: 100vh;
+    width: 100%;
+    
+background-image: url(../asset/try1.jpg);
+display: flex;
+align-items:center;
+justify-content: center;
+flex-direction: column;
+padding-bottom: 10vh;}
+.game h1{
+    color: aliceblue;
+    line-height: 10vh;
+    font-size: 10vh;
+    margin-bottom: 20px;
+}
+    
+.player{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.player1{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.playerwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: -33px -9px 11px 0px rgba(235,70,70,1);
+    -moz-box-shadow: -33px -9px 11px 0px rgba(235,70,70,1);
+    box-shadow: -33px -9px 11px 0px rgba(235,70,70,1);
+height: 400px;
+width: 800px;
+backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(3, 19, 56, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+
+}
+.player h1{
+    font-size: 50px;
+}
+.player1 h1{
+    font-size: 50px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+.bottom{
+    padding-top: 25px;
+    height: 10vh;
+    width: 50%;
+    background-color: #5BC0F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+   
+}
+.button{
+    background:#E90064;
+    border-radius: 7px;
+    color: azure;
+    font-size: 30px;
+    padding:  40px;
+    text-decoration: none;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button:hover{
+    background-color: #5BC0F8;
+}

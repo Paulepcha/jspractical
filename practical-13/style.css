@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(../gallery/2.jpg);
+   background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+
+}
+.form-cover{
+    height: 70vh;
+    width: 50vh;
+    background: rgba( 255, 255, 255, 0.39 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 19.5px );
+    -webkit-backdrop-filter: blur( 19.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+   
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+.form-cover2{
+    height: 70vh;
+    width: 50vh;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-right: 20px;
+    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none
+    
+}.form-cover3{
+     height: 70vh;
+    width: 50vh;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    flex-direction: column;
+}
+.form-cov-butt{
+height: 7vh;
+width: 100px;
+margin-right: 10px;
+background: rgba( 255, 255, 255, 0.55 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 6px );
+-webkit-backdrop-filter: blur( 6px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.form-cov-butta{
+    height: 7vh;
+    width: 100px;
+    margin-right: 10px;
+    background: rgba( 255, 255, 255, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin-top: 350px;
+    
+    }
+.heading{
+    height: 10vh;
+    width: 100%;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.buttom{
+    height: 10vh;
+    width: 100%;
+  background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: black;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(6, 249, 209);
+}
+
+    h2{
+        font-size: 30px;
+       
+    }
+
+    .menu-wrapper{
+        display: flex;
+      
+       
+       
+    }
+    .boxs{
+      width: 80%;
+      height: 80%;
+      background-image: linear-gradient(to right, red , yellow);
+    }
+    .boxe{
+        width: 80%;
+        height: 80%;
+        background-image:linear-gradient(to right, blue, green);
+          display: none;
+      }
+      .boxt{
+        width: 80%;
+        height: 80%;
+        background-image:linear-gradient(to left, black, yellow);
+          display: none;
+      }

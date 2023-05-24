@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    position: relative;
+
+}
+.wrap{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+}
+.wrap img{
+    height: 200px;
+}
+.west{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1px;
+  
+}
+.north{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1px;
+    
+}
+.east{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1px;
+   
+}
+.btn{
+    height: 140px;
+    width: 1000px;
+    background: rgba( 17, 1, 1, 0.6 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    text-decoration: none;
+    font-size: 120px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.south{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1px;
+   
+}
+
+.map1{
+    height: 100%;
+    width: 100%;
+   background-image: url(../gallery/rum.jpg);
+   background-size: cover;
+    display: flex;
+    transition:  0.8s ease-in-out;
+    align-items: center;
+    justify-content: center;
+}
+
+.map2{
+    height: 100%;
+    width: 100%;
+    background-image: url(../gallery/tvh.jpg);
+    background-size: cover;
+    display: none;
+    transition:  0.8s ease-in-out;
+    align-items: center;
+    justify-content: center;
+
+}
+.map3{
+    height: 100%;
+    width: 100%;
+    background-image: url(../gallery/tsomgo.jpg );
+    background-size: cover;
+    display: none;
+    transition:  0.8s ease-in-out;
+    align-items: center;
+    justify-content: center;}
+.map4{
+    height: 100%;
+    width: 100%;
+    background-image: url(../gallery/skywalk.jpg);
+    background-size: cover;
+    display: none;  
+    transition:  0.8s ease-in-out;
+    align-items: center;
+    justify-content: center;}
+
